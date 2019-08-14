@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: calc(100*100vw/750);
+}
+.one {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: .84rem;
+    align-items: center;
+}
+.one img{
+    width: 1.08rem;
+    height: .28rem;
+}
+.one div{
+    display: flex;
+    justify-content: space-between;
+}
+.one div input{
+    width: 4.02rem;
+    height: .5rem;
+    background-color: #F5F5F5;
+    outline: none;
+    border: 1px solid#ccc;
+    border-radius: 0.06rem;
+}
+.one div span{
+    font-size: .28rem;
+
+}
+.one div span:first-child{
+    font-size: .38rem;
+
+}
+.one div:last-child{
+    width: 1rem;
+}
+.top-2{
+    font-size: .3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 5%;
+    color: #777;
+
+
+}    
+.top-2 span{
+    padding: 0 0 .15rem;
+}
+.top-2 span:first-child{
+    color: #cc0e11;
+    border-bottom: .03rem solid #cc0e11;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+}
+
+/* 第二部分 */
+.two img{
+    margin: 1.74rem 2% 0;
+    width: 7.24rem;
+    height: 3.06rem;
+}
+
+/* 第三部分 */
+.three img{
+    height: .832rem;
+    width:.832rem;
+}
+.three p{
+    font-size: 12px;
+    color: #9B9B9B;
+}
+.three{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 第四部分 */
+
+.four{
+    padding: 0.2rem 3%; 
+    height: .8332rem;
+    font-size: .2rem;
+    display: flex;
+    justify-content: space-around;
+    line-height: .8332rem;
+    color: #4d4d4d;
+}
+.four img {
+    height: .2496rem;
+    width: 1.0284rem;
+}
+.four div:last-child{
+    color: #999;
+}
+
+/* 第五 */
+.five-1 span{
+    color: #4d4d4d;
+    font-size: .3332rem;
+}
+.five-1 span:last-child{
+    font-size: .24rem;
+    color: #9b9b9b;
+}
+.watch img{
+    width: 1.2726rem;
+    height: 1.2726rem;
+
+}
+.watch span{
+    font-size: .24rem;
+    color: #999;
+}
+.watch span:last-child{
+    color: #cc0e11;
+}
+.watch {
+    display: flex;
+    flex-direction: column;
+    width: 1.5768rem;
+    height: 2.1456rem;
+}
+.five-2{
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.fifv{
+    height: 3.2318rem;
+    background-color: #ccc;
+}
+.five-1{
+    text-align: center;
+    height: 0.5rem;
+    line-height: 1rem;
+    padding-bottom: 1rem;
+}
+/* 第六部分 */
+.six-left img:first-child{
+    width: 3.6044rem;
+    height: 5.1044rem;
+}
+.six-left img:nth-child(2){
+    width: 3.6044rem;
+    height: 2.5312rem;
+}
+.six-left img:nth-child(3){
+    width: 3.6044rem;
+    height: 2.5312rem;
+}
+.six-right img{
+    width: 3.6044rem;
+    height: 2.5312rem;
+    padding: 0 0.2rem;
+}
+.six{
+   
+
+    /* height: ; */
+    display: flex;
+    justify-content: space-between;
+}
+.six img{
+    padding: 0 0.08rem 0.08rem;
+}
+.six-left,.six-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* 第七 */
+.seven-1 img{
+    width: 1.6666rem;
+    height: 1.6666rem;
+}
+.seven-1{
+    font-size: .24rem;
+    background-color: #F9F9F9;
+    text-align: center;
+    height: 3.5028rem;
+    width: 2.4rem;
+    margin: 0 .0608rem;
+    border-radius: 0.1rem;
+}
+.seven{
+    margin: 0 1%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 第八 */
+h2{
+    font-size: 18.74px;
+    color: #444;
+    text-align: center;
+    padding: .28rem 0;
+    font-weight: 400;
+}
+.h2-1 img{
+    width: 1.7496rem;
+    height: 1.7496rem;
+}
+.h2-1 p{
+    font-size: .24rem;
+}
+.h2-1 p:last-child{
+    color: #ca141d;
+}
+.h2-1{
+    height: 3.2rem;
+    width: 2.34rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #F0F0F0;
+    border-radius: 0.2rem;
+}
+
+.h2-0{
+    margin: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.eight{
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid #F0F0F0;
+}
+
+/* 第九 */
+.nine-left img{
+    width: 3.56rem;
+    height: 3.56rem;
+    border-radius: 0.2rem;
+}
+.nine-left p{
+    font-size: .26rem;
+}
+.nine-left p:last-child{
+    color: #ca141d;
+}
+.nine{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+.nine-left{
+    width: 3.56rem;
+    text-align: center;
+}
+.nine-pic{
+    font-size: .26rem;
+    background-color: #F0F0F0;
+    border-radius: 0.2rem;
+}
+.nine-pic span{
+    line-height: .5rem;
+}
+.nine-left p{
+    padding-top: 0.2rem;
+}
